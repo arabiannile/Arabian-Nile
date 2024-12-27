@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabian Nile Company</title>
+    <link rel="stylesheet" href="../nilecompany/style.css">
+    <!-- Include Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="../nilecompany/companylogo2.png" type="image/png">
+    <script defer src="../nilecompany/java.js"></script>
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <img src="../nilecompany/companylogo2.png" alt="Arabian Nile Company Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#" class="english" data-lang="about-en">About Us</a></li>
+            <li><a href="#services" class="english" data-lang="services-en">Services</a></li>
+            <li><a href="#contact" class="english" data-lang="contact-en">Contact Us</a></li>
+            <li><a href="#location" class="english" data-lang="location-en">Location</a></li> <!-- Added Location link -->
+            <li><a href="#" class="arabic" data-lang="about-en" style="display: none;">عن الشركة</a></li>
+            <li><a href="#services" class="arabic" data-lang="services-en" style="display: none;">الخدمات</a></li>
+            <li><a href="#contact" class="arabic" data-lang="contact-en" style="display: none;">تواصل معنا</a></li>
+            <li><a href="#location" class="arabic" data-lang="location-ar" style="display: none;">موقعنا</a></li> <!-- Added Location link in Arabic -->
+        </ul>
+    </nav>
+    <div class="language-switch">
+        <button id="arabic-btn">العربية</button>
+        <button id="english-btn">English</button>
+    </div>
+    <!-- Menu Button for Mobile -->
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav-menu">
+        <i class="fas fa-bars"></i>
+    </button>
+    
+</header>
+
+    
+    <main>
+        <section id="about">
+            <h1 data-lang="header-title-en">Arabian Nile Company</h1>
+            <h1 data-lang="header-title-ar">شركة النيل العربي</h1>
+            <p data-lang="about-text" class="english">We are one of the largest companies specializing in transporting petroleum waste, cement plants, and iron factories. We also specialize in cleaning and preparing petroleum tanks of all sizes.</p>
+            <p data-lang="about-text" class="arabic" style="display: none;">نحن من أكبر الشركات المتخصصة في نقل المخلفات البترولية ومصانع الأسمنت ومصانع الحديد. كما نختص بتنظيف وتجهيز خزانات البترول بمختلف الأحجام.</p>
+        </section>
+        <section id="services">
+            <h2 data-lang="services-title-en">Our Services</h2>
+            <h2 data-lang="services-title-ar">خدماتنا</h2>
+        
+            <div class="services-container">
+                <div class="service-card">
+                    <i class="fas fa-warehouse"></i>
+                    <h3 data-lang="service1-en">Petroleum Waste Transportation</h3>
+                    <h3 data-lang="service1-ar" style="display: none;">نقل المخلفات البترولية</h3>
+                    <p data-lang="service1-en">We specialize in transporting petroleum waste with precision and care.</p>
+                    <p data-lang="service1-ar" style="display: none;">نحن متخصصون في نقل المخلفات البترولية بدقة وعناية.</p>
+                </div>
+        
+                <div class="service-card">
+                    <i class="fas fa-industry"></i>
+                    <h3 data-lang="service2-en">Cement and Iron Factory Services</h3>
+                    <h3 data-lang="service2-ar" style="display: none;">خدمات مصانع الأسمنت والحديد</h3>
+                    <p data-lang="service2-en">We provide expert services to cement and iron factories for efficient operations.</p>
+                    <p data-lang="service2-ar" style="display: none;">نقدم خدمات متخصصة لمصانع الأسمنت والحديد لضمان عمليات فعالة.</p>
+                </div>
+        
+                <div class="service-card">
+                    <i class="fas fa-tint"></i>
+                    <h3 data-lang="service3-en">Tank Cleaning and Preparation</h3>
+                    <h3 data-lang="service3-ar" style="display: none;">تنظيف وتجهيز خزانات البترول</h3>
+                    <p data-lang="service3-en">Our team excels in cleaning and preparing tanks of all sizes for efficient use.</p>
+                    <p data-lang="service3-ar" style="display: none;">فريقنا متخصص في تنظيف وتجهيز الخزانات بمختلف الأحجام للاستخدام الفعال.</p>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="contact">
+            <h2 data-lang="contact-en">Contact Us</h2>
+            <h2 data-lang="contact-ar">تواصل معنا</h2>
+            <div class="contact-cards">
+                <!-- Phone Card -->
+                <div class="contact-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3 data-lang="phone-en">Phone</h3>
+                    <h3 data-lang="phone-ar">التليفون</h3>
+                    <p><a href="tel:+201002758566">+01002758566</a></p>
+                    <p><a href="tel:+201003948312">+01003948312</a></p>
+                </div>
+                <!-- Fax Card -->
+                <div class="contact-card">
+                    <i class="fas fa-fax"></i>
+                    <h3 data-lang="fax-en">Fax</h3>
+                    <h3 data-lang="fax-ar">فاكس</h3>
+                    <p><a href="tel:+201003948312">+01003948312</a></p>
+                </div>
+                <!-- Email Card -->
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3 data-lang="email-en">Email</h3>
+                    <h3 data-lang="email-ar">الايميل</h3>
+                    <p><a href="mailto:arabiannile0@gmail.com">arabiannile0@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="location">
+            <h2 data-lang="location-title-en">Our Location</h2>
+            <h2 data-lang="location-title-ar">موقعنا</h2>
+            <div class="location-details">
+                <p data-lang="location-address-en">Benisueif : Eastern of benisuef</p>
+                <p data-lang="location-address-en">Cairo: Elkatameya</p>
+                <p data-lang="location-address-ar" style="display: none;">بني سويف : شرق النيل</p>
+                <p data-lang="location-address-ar" style="display: none;">القاهرة :القطامية</p>
+                <a href="https://maps.app.goo.gl/fVtZ72phUiD93vHT6" data-lang="location-en" target="_blank" class="view-map">View on Google Maps</a>
+                <a href="https://maps.app.goo.gl/fVtZ72phUiD93vHT6" data-lang="location-ar" target="_blank" class="view-map">اعرض في خرائط جوجل</a>
+            </div>
+            <div class="map-container">
+                <!-- Embed Google Maps iframe (optional) -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d915.5003498114361!2d31.12029580140161!3d29.047253632625914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sar!2seg!4v1735142092210!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=61571382143125" target="_blank" data-lang="facebook">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>            
+            <!-- <a href="#" class="arabic" data-lang="facebook-ar" style="display: none;">فيسبوك</a> -->
+            <a href="https://www.linkedin.com/in/arabian-nile-824728343/" target="_blank" data-lang="linkedin">
+                <i class="fab fa-linkedin-in"></i> LinkedIn
+            </a>
+            <!-- <a href="#" class="arabic" data-lang="linkedin-ar" style="display: none;"><i class="fab fa-linkedin-in"></i> لينكد ان</a> -->
+        </div>
+        <p>&copy; 2024 Arabian Nile Company. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
