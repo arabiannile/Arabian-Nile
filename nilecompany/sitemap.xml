@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://arabian-nile.vercel.app/</loc>
+        <lastmod>2025-01-06</lastmod>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- About Us Section -->
+    <url>
+        <loc>https://arabian-nile.vercel.app/#about</loc>
+        <lastmod>2025-01-06</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Services Section -->
+    <url>
+        <loc>https://arabian-nile.vercel.app/#services</loc>
+        <lastmod>2025-01-06</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Contact Us Section -->
+    <url>
+        <loc>https://arabian-nile.vercel.app/#contact</loc>
+        <lastmod>2025-01-06</lastmod>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Location Section -->
+    <url>
+        <loc>https://arabian-nile.vercel.app/#location</loc>
+        <lastmod>2025-01-06</lastmod>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Facebook Link -->
+    <url>
+        <loc>https://www.facebook.com/profile.php?id=61571382143125</loc>
+        <lastmod>2025-01-06</lastmod>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- LinkedIn Link -->
+    <url>
+        <loc>https://www.linkedin.com/in/arabian-nile-824728343/</loc>
+        <lastmod>2025-01-06</lastmod>
+        <priority>0.5</priority>
+    </url>
+</urlset>
